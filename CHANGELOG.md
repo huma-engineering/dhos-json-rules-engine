@@ -1,3 +1,6 @@
+2.3.7 / 2019-02-26
+  * postinstall/ postpack removed
+  
 2.3.3 / 2019-02-26
   * Added postinstall script
 

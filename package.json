@@ -1,6 +1,6 @@
 {
   "name": "dhos-json-rules-engine",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "description": "Rules Engine expressed in simple json",
   "main": "dist/index.js",
   "license": "ISC",
@@ -9,8 +9,7 @@
     "lint": "standard --verbose --env mocha | snazzy || true",
     "lint:fix": "standard --fix --env mocha",
     "prepublishOnly": "npm run build",
-    "build": "babel --stage 1 -d dist/ src/",
-    "postpack": "yarn && yarn build"
+    "build": "babel --stage 1 -d dist/ src/"
   },
   "homepage": "https://github.com/draysontechnologies/dhos-json-rules-engine",
   "repository": {
