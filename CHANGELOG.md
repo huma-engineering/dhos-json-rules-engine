@@ -1,3 +1,6 @@
+2.3.3 / 2019-02-26
+  * Removed npm package "debug"
+
 2.3.2 / 2018-12-28
   * Upgrade all dependencies to latest
 

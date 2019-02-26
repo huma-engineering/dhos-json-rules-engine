@@ -1,8 +1,9 @@
 {
-  "name": "json-rules-engine",
-  "version": "2.3.2",
+  "name": "dhos-json-rules-engine",
+  "version": "2.3.3",
   "description": "Rules Engine expressed in simple json",
   "main": "dist/index.js",
+  "license": "ISC",
   "scripts": {
     "test": "mocha && npm run lint --silent",
     "lint": "standard --verbose --env mocha | snazzy || true",
@@ -10,39 +11,23 @@
     "prepublishOnly": "npm run build",
     "build": "babel --stage 1 -d dist/ src/"
   },
+  "homepage": "https://github.com/draysontechnologies/dhos-json-rules-engine",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cachecontrol/json-rules-engine"
+    "url": "git@github.com:draysontechnologies/dhos-json-rules-engine.git"
   },
-  "keywords": [
-    "rules",
-    "engine",
-    "rules engine"
+  "contributors": [
+    {
+      "name": "Cache Hamm",
+      "email": "cache.hamm@gmail.com",
+      "url": "https://github.com/cachecontrol/json-rules-engine"
+    },
+    {
+      "name": "Arsam Sarabi",
+      "email": "arsam.sarabi@sensynehealth.com",
+      "url": "https://github.com/arsamsarabi/"
+    }
   ],
-  "standard": {
-    "parser": "babel-eslint",
-    "ignore": [
-      "/dist"
-    ],
-    "globals": [
-      "context",
-      "xcontext",
-      "describe",
-      "xdescribe",
-      "it",
-      "xit",
-      "before",
-      "beforeEach",
-      "expect",
-      "factories"
-    ]
-  },
-  "author": "Cache Hamm <cache.hamm@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cachecontrol/json-rules-engine/issues"
-  },
-  "homepage": "https://github.com/cachecontrol/json-rules-engine",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
@@ -65,9 +50,26 @@
   },
   "dependencies": {
     "clone": "^2.1.2",
-    "debug": "^4.1.1",
     "lodash.isobjectlike": "^4.0.0",
     "object-hash": "^1.3.1",
     "selectn": "^1.1.2"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "/dist"
+    ],
+    "globals": [
+      "context",
+      "xcontext",
+      "describe",
+      "xdescribe",
+      "it",
+      "xit",
+      "before",
+      "beforeEach",
+      "expect",
+      "factories"
+    ]
   }
 }

@@ -1,8 +1,7 @@
 'use strict'
 
 import hash from 'object-hash'
-
-let verbose = require('debug')('json-rules-engine-verbose')
+import { verbose } from './overrides';
 
 class Fact {
   /**

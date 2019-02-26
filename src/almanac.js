@@ -2,12 +2,10 @@
 
 import Fact from './fact'
 import { UndefinedFactError } from './errors'
+import { debug, warn, verbose } from './overrides';
 
-let debug = require('debug')('json-rules-engine')
-let verbose = require('debug')('json-rules-engine-verbose')
 let selectn = require('selectn')
 let isObjectLike = require('lodash.isobjectlike')
-let warn = require('debug')('json-rules-engine:warn')
 
 /**
  * Fact results lookup
