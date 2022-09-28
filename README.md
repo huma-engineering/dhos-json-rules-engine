@@ -1,3 +1,6 @@
+# Announcement :loudspeaker: 
+This repository is transferred from [gdm-SynseneHealth](https://github.com/draysontechnologies/dhos-json-rules-engine) to Huma organisation as part of change in asset ownership 
+
 ![json-rules-engine](http://i.imgur.com/MAzq7l2.png)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
